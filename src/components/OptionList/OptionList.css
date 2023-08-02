@@ -1,0 +1,17 @@
+.options-list label {
+    display: block;
+    font-size: 1.125em;
+    font-weight: 600;
+    font-family: var(--font-Monserrat);
+    margin-bottom: 0.5em;
+}
+
+.options-list select {
+    width: 100%;
+    background-color: var(--color-white);
+    box-shadow: 0.625em 0.625em 1.875em 0 rgba(0, 0, 0, 0.06);
+    padding: 1.5em;
+    border: none;
+    outline-color: var(--color-blue);
+    font-size: 1em;
+}

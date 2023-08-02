@@ -1,0 +1,16 @@
+.button {
+    background-color: var(--color-blue);
+    border-radius: 0.625em;
+    font-weight: 700;
+    font-family: var(--font-Monserrat);
+    font-size: 1.25em;
+    padding: 1.5em 2em;
+    border: none;
+    color: var(--color-white);
+    margin: 2em 0;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--color-aquamarine);
+}
