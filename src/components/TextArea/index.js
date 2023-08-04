@@ -1,11 +1,15 @@
 import "./TextArea.css"
 
 const TextArea = (props) => {
-    console.log("Datos: " + props.titulo)
     const modifiedPlaceholder = `${props.placeholder}..`
+
+    const sendChange = (e) => {
+        props.updateValue(e.target.value)
+    }
+
     return <div className="text-area">
         <label>{props.titulo}</label>
-        <input placeholder={modifiedPlaceholder} />
+        <input placeholder={modifiedPlaceholder} required={props.required} value={props.value} onChange={sendChange} />
     </div>
 };
 
