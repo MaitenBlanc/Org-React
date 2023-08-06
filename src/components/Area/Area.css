@@ -1,9 +1,9 @@
-.text-area {
+.area {
     margin: 1.5em 0;
     font-family: var(--font-Monserrat);
 }
 
-.text-area label {
+.area label {
     font-family: var(--font-Monserrat);
     font-size: 1.125em;
     font-weight: 600;
@@ -11,7 +11,7 @@
     margin-bottom: 0.5em;
 }
 
-.text-area input {
+.area input {
     width: 100%;
     background: var(--color-white);
     box-shadow: 0.625em 0.625em 1.875em 0 rgba(0, 0, 0, 0.06);
@@ -20,4 +20,9 @@
     outline-color: var(--color-blue);
     font-size: 1em;
     box-sizing: border-box;
+}
+
+.area-color input {
+    height: 2.5em;
+    padding: 0.3125em 1.25em;
 }

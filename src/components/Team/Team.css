@@ -1,9 +1,16 @@
 .team {
     width: 100%;
-    padding: 2em;
+    padding: 0 2em 0 2em;
     box-sizing: border-box;
     text-align: center;
     font-size: 1.7em;
+    position: relative;
+}
+
+.input-color {
+    position: absolute;
+    top: 1.25em;
+    right: 3.125em;
 }
 
 .team h3 {
@@ -12,4 +19,10 @@
     border-bottom: 0.12em solid;
     display: inline-block;
     padding-bottom: 0.3em;
+}
+
+.collaborators {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }

@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2em;
 }
 
 .title {
@@ -15,6 +16,6 @@
 
 .orgSection img {
     position: absolute;
-    right: 30%;
+    right: 14%;
     cursor: pointer;
 }

@@ -1,0 +1,50 @@
+.collaborator {
+    width: 10em;
+    margin-bottom: 1.5em;
+    position: relative;
+}
+
+.collaborator .encabezado {
+    background-color: #F0F0F0;
+    border-radius: 0.62em 0.62em 0 0;
+}
+
+.collaborator img {
+    width: 3.5em;
+    border-radius: 50%;
+    position: relative;
+    bottom: -2em;
+}
+
+.collaborator .info {
+    background: #FFFFFF;
+    box-shadow: 0.15em 0.15em 0.2em rgba(0, 0, 0, 0.08);
+    border-radius: 0 0 0.62em 0.62em;
+    padding-top: 3.5em;
+    padding-bottom: 1.5em;
+    min-height: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.collaborator .info h4 {
+    color: #6278F7;
+    font-size: 0.65em;
+    line-height: 1.3em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.collaborator .info h5 {
+    font-size: 0.65em;
+    line-height: 1.3em;
+    color: #212121;
+    padding: 0 1.5em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.delete {
+    position: absolute;
+    right: -0.4em;
+    top: -0.4em;
+}

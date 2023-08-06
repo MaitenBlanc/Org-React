@@ -12,5 +12,5 @@
 }
 
 .button:hover {
-    color: var(--color-aquamarine);
+    color: var(--color-aquamarine-oscuro);
 }
